@@ -10,6 +10,8 @@ public class Ejemplo1_unidad2 {
 		System.out.println(hola.toUpperCase());
 		System.out.println(hola.contains(hola));
 		
+		
+		
 	}
 
 }
