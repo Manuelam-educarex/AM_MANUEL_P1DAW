@@ -12,5 +12,14 @@ public class Casa {
 		this.habitacion =  new Habitacion(nombre , metrosCuadrados);
 	}
 	
+	public void mostrarInfo() {
+		
+		System.out.println("habitaciones "+ habitacion);
+		System.out.println("Nombre" + habitacion.getNombre() );
+		System.out.println("Metros cuadrados " + habitacion.getMetrosCuadrados()+ "m²");
+		
+
+	}
+	
 
 }
